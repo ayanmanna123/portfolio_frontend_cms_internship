@@ -156,7 +156,9 @@ export function SettingsPage() {
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 text-xs font-mono text-slate-300">
           <div className="p-3 rounded-xl bg-slate-800/80 border border-slate-700 space-y-1">
             <span className="text-slate-500 block">CMS Backend API</span>
-            <span className="text-indigo-400 font-bold">http://localhost:5000/api</span>
+            <span className="text-indigo-400 font-bold truncate block">
+              {import.meta.env.VITE_API_URL || 'https://portfolio-backend-internship.onrender.com/api'}
+            </span>
           </div>
 
           <div className="p-3 rounded-xl bg-slate-800/80 border border-slate-700 space-y-1">
