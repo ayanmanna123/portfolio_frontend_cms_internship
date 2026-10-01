@@ -1,0 +1,33 @@
+{
+  "resumeUrl": "/uploads/ayan-manna.pdf",
+  "codeSnippets": "import { FullStackDeveloper } from 'ayanmanna.in';\nconst developer = new FullStackDeveloper({\n  name: 'Ayan Manna',\n  stack: ['React', 'Next.js', 'Node.js'],\n  focus: 'Building scalable web applications',\n  status: 'Open to new opportunities'\n});\nawait developer.launchPortfolio();\n// Featured: E-commerce, SaaS, Enterprise, Startup MVPs\ndeveloper.connect();\nconsole.log('🚀 Let\\'s build something exceptional together!');",
+  "leetcodeUsername": "ayanmanna123",
+  "status": "Available Immediately",
+  "subtitle": "Full-Stack Engineer",
+  "title": "I'm Ayan Manna",
+  "githubUsername": "ayanmanna123",
+  "description": "I build high-performance web applications that drive business growth. Specializing in React, Node.js, and scalable architecture for startups and enterprises. this is for test",
+  "roles": "Full-Stack and Frontend roles",
+  "heroAchievements": [
+    {
+      "label": "Github Contributions",
+      "number": "0+",
+      "icon": "Github"
+    },
+    {
+      "label": "Total Repositories",
+      "number": "0+",
+      "icon": "GitFork"
+    },
+    {
+      "label": "Total Projects",
+      "number": "0+",
+      "icon": "Briefcase"
+    },
+    {
+      "label": "LeetCode Problems",
+      "number": "0+",
+      "icon": "Code2"
+    }
+  ]
+}
