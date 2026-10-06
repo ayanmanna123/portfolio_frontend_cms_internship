@@ -152,13 +152,14 @@ export function SkillsPage() {
         </div>
 
         <div className="relative w-full sm:w-64">
-          <Search className="w-4 h-4 absolute left-3 top-1/2 -translate-y-1/2 text-slate-500" />
+          <Search className="w-4 h-4 absolute left-3.5 top-1/2 -translate-y-1/2 text-slate-500 pointer-events-none" />
           <input
             type="text"
             placeholder="Search skills..."
             value={search}
             onChange={(e) => setSearch(e.target.value)}
-            className="w-full pl-9 pr-3 py-1.5 rounded-xl text-xs border border-slate-700 bg-slate-800 text-white placeholder:text-slate-500 focus:outline-none focus:border-indigo-500"
+            className="w-full pl-10 pr-3 py-1.5 rounded-xl text-xs border border-slate-700 bg-slate-800 text-white placeholder:text-slate-500 focus:outline-none focus:border-indigo-500"
+            style={{ paddingLeft: '2.5rem' }}
           />
         </div>
       </div>
